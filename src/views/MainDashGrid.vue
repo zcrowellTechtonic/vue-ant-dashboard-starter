@@ -22,6 +22,7 @@
       <a-col :xs="24" :md="24" >
         <div class="component-container">
             Big Ole Grid 
+            <BarChart />
         </div>
       </a-col>
     </a-row>
@@ -29,8 +30,11 @@
 </template>
 
 <script>
+import BarChart from '../components/charts/BarChart.vue';
     export default {
-        
+        components: {
+          BarChart
+        },
     }
 </script>
 
